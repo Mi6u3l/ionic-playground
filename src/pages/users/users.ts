@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { HttpModule } from '@angular/http';
+
 
 import { User } from '../../models/user';
 

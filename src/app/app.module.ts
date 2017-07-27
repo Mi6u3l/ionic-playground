@@ -12,6 +12,9 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { GithubUsers } from '../providers/github-users/github-users';
 
+import { HttpModule } from '@angular/http';
+
+
 
 @NgModule({
   declarations: [
@@ -23,6 +26,7 @@ import { GithubUsers } from '../providers/github-users/github-users';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    HttpModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
